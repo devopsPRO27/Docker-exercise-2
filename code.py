@@ -3,8 +3,8 @@ import os
 
 current_year = datetime.date.today().year
 
-name = os.environ.get("USER_NAME")
-year = int(os.environ.get("BIRTH_YEAR"))
+name = os.environ.get("NAME")
+year = int(os.environ.get("YEAR"))
 
 age = current_year - year
 
